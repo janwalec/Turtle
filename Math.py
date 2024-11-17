@@ -1,6 +1,5 @@
+from Figures.Vector2D import Vector2D
 import math
-from Geometry import *
-
 
 def dot_product(v1: Vector2D, v2: Vector2D):
     return v1.pos[0] * v2.pos[0] + v1.pos[1] * v2.pos[1]

@@ -1,12 +1,7 @@
 import math
 
-from pythonturtle.misc.vector import Vector
+from Figures.Point import Point
 
-
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
 
 class Vector2D:
     def __init__(self, p1: Point, p2: Point):
@@ -42,5 +37,3 @@ class Vector2D:
         self.p1 = Point(new_x1 + p.x, new_y1 + p.y)
         self.p2 = Point(new_x2 + p.x, new_y2 + p.y)
         self.set_pos()
-
-

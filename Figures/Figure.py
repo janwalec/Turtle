@@ -1,10 +1,12 @@
-from Geometry import *
+from Figures.Point import Point
+from Figures.Vector2D import Vector2D
 
 
 class Figure:
     def __init__(self):
         self.vectors = None
         self.vectors = []
+        self.middle_point = None
 
 
     def set_middle_point(self):
